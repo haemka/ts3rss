@@ -1,6 +1,6 @@
 <?php
 
-include("./config.inc.php"); 
+include(dirname(__FILE__) . "/config.inc.php"); 
 
 require_once($SIMPLEPIE_PATH . "simplepie.inc");
 require_once($TS3PHP_PATH . "libraries/TeamSpeak3/TeamSpeak3.php");
