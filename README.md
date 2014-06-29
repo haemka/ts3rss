@@ -1,6 +1,6 @@
 # ts3rss
 
-## A simple script to update TeamSpeak 3 welcome messages based on RSS/ATOM feed data
+_A simple script to update TeamSpeak 3 welcome messages based on RSS/ATOM feed data_
 
 ### What it does?
 This script just parses a RSS or ATOM feed through SimplePie and sets the Welcome Message of a TeamSpeak 3 server accordingly. It is somewhat configurable, so that you can choose how many feed entries you want to see in your news and if you want to notify active users of new feed entries.
