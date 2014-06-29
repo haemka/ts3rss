@@ -18,6 +18,6 @@ This script just parses a RSS or ATOM feed through SimplePie and sets the Welcom
 	$ git clone https://github.com/wyldphyr3/ts3rss.git
 4. Configure ts3rss by creating a config.inc.php file. You can just use the provided config.sample.inc.php and copy (or rename) it. The file is commented so that every option should be easily understood.
 5. Call the script regularly, either by
-* adding a cronjob to your system which calls __php ts3rss.php__
-or by
-* calling the script through your RSS generator (I call it through my [mynt](http://mynt.uhnomoli.com/) generator script).
+	* adding a cronjob to your system which calls __php ts3rss.php__
+	or by
+	* calling the script through your RSS generator (I call it through my [mynt](http://mynt.uhnomoli.com/) generator script).
