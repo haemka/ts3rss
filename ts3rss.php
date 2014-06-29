@@ -28,6 +28,8 @@ if (strcmp($ts3_VirtualServer["virtualserver_welcomemessage"], $welcome_msg) != 
 	echo "Updating TS3 welcome message ...\n";
 	echo $welcome_msg;
 	$ts3_VirtualServer["virtualserver_welcomemessage"] = $welcome_msg;
-	$ts3_VirtualServer->message($notify_msg);
+	if ($NOTIFY == 1) {
+		$ts3_VirtualServer->message($notify_msg);
+	}
 }
 ?>
