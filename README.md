@@ -15,7 +15,9 @@ This script just parses a RSS or ATOM feed through SimplePie and sets the Welcom
 1. Install [SimplePie](http://simplepie.org/) (either by hand or through your distributions package management)
 2. Donwload and unzip [TeamSpeak 3 PHP Framework](http://addons.teamspeak.com/directory/addon/integration/TeamSpeak-3-PHP-Framework.html)
 3. Get ts3rss:
+
 	$ git clone https://github.com/wyldphyr3/ts3rss.git
+
 4. Configure ts3rss by creating a config.inc.php file. You can just use the provided config.sample.inc.php and copy (or rename) it. The file is commented so that every option should be easily understood.
 5. Call the script regularly, either by
 	* adding a cronjob to your system which calls __php ts3rss.php__
